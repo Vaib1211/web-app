@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bhada Chitthi</string>
+    <string name="welcome_title">Welcome to Bhada Chitthi</string>
+    <string name="setup_profile">Let\'s set up your business profile</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="mobile_number_hint">Enter 10-digit mobile number</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="business_name">Business Name</string>
+    <string name="business_name_hint">Enter your business name</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="back">Back</string>
+    <string name="step">Step %1$d of 3</string>
+    <string name="error_invalid_mobile">Please enter a valid 10-digit mobile number</string>
+    <string name="error_required_field">This field is required</string>
+    <string name="profile_saved">Profile saved successfully!</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="edit_limit_reached">You have reached the maximum edit limit for this field</string>
+</resources>
