@@ -37,7 +37,6 @@ class OnboardingActivity : AppCompatActivity() {
         nextButton = findViewById(R.id.nextButton)
         
         backButton.setOnClickListener { goToPreviousStep() }
-        nextButton.setOnClickListener { goToNextStep() }
         
         showStep(currentStep)
     }
@@ -140,10 +139,6 @@ class OnboardingActivity : AppCompatActivity() {
         if (currentStep > 1) {
             showStep(currentStep - 1)
         }
-    }
-    
-    private fun goToNextStep() {
-        // This is handled by individual step click listeners
     }
     
     private fun isValidMobileNumber(number: String): Boolean {
