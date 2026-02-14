@@ -91,7 +91,8 @@ class MainActivity : AppCompatActivity() {
     private fun showEditNameDialog(currentName: String) {
         val editText = TextInputEditText(this)
         editText.setText(currentName)
-        editText.setPadding(50, 30, 50, 30)
+        val padding = resources.getDimensionPixelSize(R.dimen.dialog_edit_text_padding)
+        editText.setPadding(padding, padding, padding, padding)
         
         AlertDialog.Builder(this)
             .setTitle("Edit Name")
@@ -114,7 +115,8 @@ class MainActivity : AppCompatActivity() {
     private fun showEditBusinessNameDialog(currentBusinessName: String) {
         val editText = TextInputEditText(this)
         editText.setText(currentBusinessName)
-        editText.setPadding(50, 30, 50, 30)
+        val padding = resources.getDimensionPixelSize(R.dimen.dialog_edit_text_padding)
+        editText.setPadding(padding, padding, padding, padding)
         
         AlertDialog.Builder(this)
             .setTitle("Edit Business Name")
